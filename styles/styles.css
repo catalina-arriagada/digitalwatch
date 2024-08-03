@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.watch {
+    font-size: 80px;
+    font-family: monospace sans-serif;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: watch 1s ease-in-out infinite alternate;
+    -moz-animation: watch 1s ease-in-out infinite alternate;
+    animation: watch 1s ease-in-out infinite alternate;
+  }
+  
+  /*Glowing Text*/
+  @-webkit-keyframes watch {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
